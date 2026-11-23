@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.antrix3" name="PalAntriX" version="1.0.0" provider-name="trigui">
+  <extension point="xbmc.addon.repository" name="PalAntriX">
+    <dir>
+      <info compressed="false">https://raw.githubusercontent.com/palantrix-app/antrix-repo/main/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/palantrix-app/antrix-repo/main/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/palantrix-app/antrix-repo/main/zips/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Repositorio de Antrix en GitHub</summary>
+    <description>Repositorio personal de Antrix servido desde GitHub. Desde aquí Kodi recibe automáticamente las actualizaciones de los addons de Antrix cuando se publican versiones nuevas.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
