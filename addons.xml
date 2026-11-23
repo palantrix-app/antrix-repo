@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.antrix2" name="Antrix Repo 2" version="1.0.0" provider-name="trigui">
-  <extension point="xbmc.addon.repository" name="Antrix Repo 2">
-    <dir>
-      <info compressed="false">https://antrix-repo.pages.dev/addons.xml</info>
-      <checksum>https://antrix-repo.pages.dev/addons.xml.md5</checksum>
-      <datadir zip="true">https://antrix-repo.pages.dev/zips/</datadir>
-    </dir>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Repositorio de Antrix (nuevo)</summary>
-    <description>Repositorio personal de Antrix. Desde aquí Kodi recibe automáticamente las actualizaciones de los addons de Antrix cuando se publican versiones nuevas.</description>
-    <platform>all</platform>
-    <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
 <addon id="repository.antrix3" name="PalAntriX" version="1.0.0" provider-name="trigui">
   <extension point="xbmc.addon.repository" name="PalAntriX">
     <dir>
@@ -36,54 +18,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="plugin.video.palantrix" name="PalAntriX" provider-name="[COLOR fffdb515]AntriX[/COLOR]" version="1.2.2">
-	<requires>
-		<import addon="xbmc.python" version="3.0.1" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.beautifulsoup4" />
-		<import addon="plugin.video.youtube" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="luc_kodi.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" />
-	<extension point="xbmc.python.module" library="resources/lib/" />
-	<extension point="xbmc.addon.metadata">
-		<reuselanguageinvoker>true</reuselanguageinvoker>
-		<summary lang="es">Clic y a ver: reproduce directamente el mejor enlace en español de los indexadores y servicios debrid que configuras con tus propias cuentas. No aloja contenido ni proporciona enlaces.</summary>
-		<description lang="es">Palantrix es una interfaz de usuario para servicios de terceros que configuras con tus propias cuentas: servicios debrid como Real-Debrid, AllDebrid, Premiumize o TorBox, e indexadores de torrents. El complemento no aloja, almacena, sube ni distribuye ningún medio, y no incorpora ningún enlace a contenido. Todas las fuentes las localizan y resuelven en tiempo de ejecución los servicios de terceros que hayas configurado con tus propias credenciales. El autor no se responsabiliza del contenido que devuelvan esos servicios ni del uso que se haga del complemento. Palantrix viene configurado para reproducir automáticamente el mejor enlace en español, sin pasar por listas de enlaces. Versión modificada y traducida al castellano.</description>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<disclaimer lang="es">Este complemento no aloja contenido ni incluye enlaces propios. Solo consulta servicios de terceros que configuras con tus propias cuentas. Eres el único responsable de las fuentes que decidas activar y de cumplir las leyes de derechos de autor de tu país. Úsalo bajo tu propia responsabilidad.</disclaimer>
-	  <assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-		<screenshot>resources/screenshot1.jpg</screenshot>
-        <screenshot>resources/screenshot2.jpg</screenshot>
-        <screenshot>resources/screenshot3.jpg</screenshot>
-      </assets>
-    </extension>
-</addon>
-<addon id="plugin.video.palantrix2" name="PalAntriX" version="0.5.3" provider-name="AntriX">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.requests" version="2.31.0"/>
-    <import addon="script.module.pycryptodome" version="3.4.3"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="es_ES">PalAntriX — tu catálogo, como Apple TV</summary>
-    <description lang="es_ES">Catálogo completo con enlaces originales y búsqueda en vivo de respaldo. Interfaz visual estilo Apple TV.</description>
-    <platform>all</platform>
-    <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
-<addon id="plugin.video.palantrix3" name="PalAntriX" provider-name="[COLOR fffdb515]AntriX[/COLOR]" version="2.0.4">
+<addon id="plugin.video.palantrix3" name="PalAntriX" provider-name="[COLOR fffdb515]AntriX[/COLOR]" version="2.0.5">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1" />
 		<import addon="script.module.requests" />
