@@ -18,7 +18,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="plugin.video.palantrix3" name="PalAntriX" provider-name="[COLOR fffdb515]AntriX[/COLOR]" version="2.1.5">
+<addon id="plugin.video.palantrix3" name="PalAntriX" provider-name="[COLOR fffdb515]AntriX[/COLOR]" version="2.1.6">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1" />
 		<import addon="script.module.requests" />
@@ -46,5 +46,4 @@
         <screenshot>resources/screenshot3.jpg</screenshot>
       </assets>
     </extension>
-</addon>
-</addons>
+</addon></addons>
